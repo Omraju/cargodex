@@ -193,6 +193,9 @@ iframe {
   -o-transform: translateY(-110px) rotateX(90deg);
   transform: translateY(-110px) rotateX(90deg);
 }
+.txt{
+  text-align: center;
+}
 .service-box:hover .service-content {
   opacity: 1;
   -webkit-transform: rotateX(0);

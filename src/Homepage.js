@@ -43,7 +43,7 @@ export const Homepage = () => (
                             <i className="fa fa-2x fa-plane text-dark pr-3"></i>
                             <h6 className="text-white font-weight-medium m-0">Air Freight</h6>
                         </div>
-                        <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet diam sea est diam</p>
+                        <p>Air freight parcel delivery is the transfer and shipment of goods via an air carrier, which may be charter or commercial. Such shipments travel out of commercial and passenger aviation gateways to anywhere planes can fly and land.</p>
                         <a className="border-bottom text-decoration-none" href="">Read More</a>
                     </div>
                     <div className="col-lg-3 col-md-6 text-center mb-5">
@@ -73,6 +73,26 @@ export const Homepage = () => (
                 </div>
             </div>
         </div>
+        <div class="container">
+           {/* <h1 class="text-center">ggg</h1> */}
+              <div class="row">
+              <div class="col-md-6">
+                <img src="https://media.istockphoto.com/photos/loading-cargo-into-the-aircraft-before-departure-in-domodedovo-in-picture-id1047540990?k=20&m=1047540990&s=612x612&w=0&h=uKvjzz45-8R31nlQod4SczMn42n8DMtDDKWB1uK9SsI=" alt="" class="w-100" />
+              </div>
+         <div class="col-md-6">
+          <div class="row align-items-center h-100">
+            <div class="col">
+               <h1 class="display-3">CARGOODEX</h1>
+               <p class="lead">Flexbox grids help you build some really nice layouts.
+               <br /><br />
+               {/* <a href="" class="">Learn More</a> */}
+               </p>
+            </div>
+          </div>
+         </div>
+        </div>
+        </div>
+    
         <footer className="foot-col">
             <div className="foot-main">
                 <div className="foot-row">

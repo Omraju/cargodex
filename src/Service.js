@@ -34,10 +34,9 @@ export const Service = () => (
               <div className="icon-wrapper">
                 <i className="fas fa-hammer"></i>
               </div>
-              <h3>Service Heading</h3>
+              <h3>ROAD TRANSPORT</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                consequatur necessitatibus eaque.
+              <li><NavLink to="/Road">Click to see more</NavLink></li>
               </p>
             </div>
           </div>
@@ -46,10 +45,9 @@ export const Service = () => (
               <div className="icon-wrapper">
                 <i className="fas fa-brush"></i>
               </div>
-              <h3>Service Heading</h3>
+              <h3>AIR TRANSPORT</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                consequatur necessitatibus eaque.
+              Click to see more
               </p>
             </div>
           </div>
@@ -58,17 +56,16 @@ export const Service = () => (
               <div className="icon-wrapper">
                 <i className="fas fa-wrench"></i>
               </div>
-              <h3>Service Heading</h3>
+              <h3>OCEAN TRANSPORT</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                consequatur necessitatibus eaque.
+              Click to see more
               </p>
             </div>
           </div>
         </div>
       </section>
-    <div class="row">
-  <section>
+    {/* <div class="row">
+  {/* <section>
       <div id="some-box">
   <h1>Section Heading</h1>
 
@@ -91,23 +88,23 @@ export const Service = () => (
 	</article>
        </div>   
   </section>
-    </div>
+    </div>} */}
     <div class="row">
       <section>
       <div class="container">
-    <h1>Service box</h1>
+      <h2 className="txt">SPECIALITIES</h2>
     <div class="row">
         <div class="col-md-3 col-sm-6 ">
             <div class="service-box">
                 <div class="service-icon yellow">
                     <div class="front-content">
                         <i class="fa fa-trophy"></i>
-                        <h3>design</h3>
+                        <h3>DOOR TO DOOR</h3>
                     </div>
                 </div>
                 <div class="service-content">
-                    <h3>design</h3>
-                    <p>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure</p>
+                    <h3>DOOR TO DOOR</h3>
+                    <p>We provide door to door facility.We collect goods from your company and deliver it at the destination.</p>
                 </div>
             </div>
         </div>
@@ -116,12 +113,12 @@ export const Service = () => (
                 <div class="service-icon orange">
                     <div class="front-content">
                         <i class="fa fa-anchor"></i>
-                        <h3>php</h3>
+                        <h3>ALL IN ONE</h3>
                     </div>
                 </div>
                 <div class="service-content">
-                    <h3>php developer</h3>
-                    <p>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure</p>
+                    <h3>ALL IN ONE</h3>
+                    <p>We provide all services under a single website.</p>
                 </div>
             </div>
         </div>
@@ -130,12 +127,12 @@ export const Service = () => (
                 <div class="service-icon red">
                     <div class="front-content">
                         <i class="fa fa-trophy"></i>
-                        <h3>Ui Developer</h3>
+                        <h3>CHECK APPROXIMATE RATE</h3>
                     </div>
                 </div>
                 <div class="service-content">
-                    <h3>Developer</h3>
-                    <p>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure</p>
+                    <h3>Check Approximate rate</h3>
+                    <p>We provide you with the ability to estimate the cost of shipment. It enables you to make a decision more about way of shipment.</p>
                 </div>
             </div>
         </div>
@@ -144,12 +141,12 @@ export const Service = () => (
                 <div class="service-icon grey">
                     <div class="front-content">
                         <i class="fa fa-paper-plane-o"></i>
-                        <h3>java script</h3>
+                        <h3>FASTER DELIVERY</h3>
                     </div>
                 </div>
                 <div class="service-content">
-                    <h3>java script</h3>
-                    <p>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure</p>
+                    <h3>Faster Delivery</h3>
+                    <p>Fastest and the most trusted shipment application.</p>
                 </div>
             </div>
         </div>

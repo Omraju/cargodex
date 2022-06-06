@@ -7,6 +7,8 @@ import { Service } from './Service';
 import { About } from './About';
 import { Contact } from './Contact';
 import { Shipping } from './Shipping';
+import { Calculation } from './Calculation';
+import { Road } from './Road';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
             <Route path = "/About" element= {<About/>}/>
             <Route path = "/Contact" element= {<Contact/>}/>
             <Route path = "/Shipping" element= {<Shipping/>}/>
+            <Route path = "/Road" elements={<Road/>}/>
+      
         </Routes>
       
 </div>
