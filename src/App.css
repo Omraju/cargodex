@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+.page-content{
+  width: 1580px;
+  height:1000px;
+  font-size: larger;
+  border-width: 2px;
+  border-style:solid;
+  border-color:rgb(0, 0, 0);
+}
+.page-content2{
+  width: 1580px;
+  height:600px;
+  font-size: larger;
+  /* background: url("../images/img4.jpg"); */
+  background: #e6c4c4 ;
+}
+nav{
+  position: fixed;
+  background: #3866f2;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+.img{
+  background: url("../images/img3.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 55px;
+  color: aquamarine;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  border: 5px solid rgb(27, 26, 26);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+  color: #fff;
+  background: none;
+}
+.btns button:first-child:hover{
+  background: white;
+  color: black;
+}
+.center .btns button:last-child{
+  background: rgb(242, 244, 245);
+  color: rgb(0, 0, 0);
+}
+.container,
+.container-fluid pt-5{
+
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+  }
+}
+footer{
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+
+}
+footer .foot-main{
+  
+  background: #3866f2;
+  display: flex;
+  justify-content: space-between;
+  flex: 25%;
+  flex-wrap: wrap;
+  
+
+
+}
+.foot-row{
+  padding: 20px 40px;
+  margin: 70px;
+
+
+}
+.foot-row h4{
+  color: rgb(240, 230, 230);
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  position: relative;
+  text-transform: uppercase;    
+  
+}
+.foot-row h4::before{
+  content: "";
+  position: absolute;
+  left: 5px;
+  bottom: -10px;
+  background-color: #e91e63;
+  width: 50px;
+  height: 2px;
+
+}
+
+.foot-row li{
+  list-style: none;
+  margin: 15px 0;
+}
+.foot-row ul li a{
+  color: rgb(177, 173, 173);
+  text-decoration: none;
+  font-weight: 300;
+  display: block; 
+  transition: all 0.3s ease;
+
+}
+.foot-row ul li a:hover{
+  color: #fff;
+  padding-left: 10px;
+}
+.social-icon ul li{
+  list-style: none;
+  display: inline-block;
+  background: white;
+  border-radius: 50%;
+
+}
+
+
