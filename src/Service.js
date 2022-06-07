@@ -47,7 +47,7 @@ export const Service = () => (
               </div>
               <h3>AIR TRANSPORT</h3>
               <p>
-              Click to see more
+              <li><NavLink to="/Air">Click to see more</NavLink></li>
               </p>
             </div>
           </div>
@@ -58,7 +58,7 @@ export const Service = () => (
               </div>
               <h3>OCEAN TRANSPORT</h3>
               <p>
-              Click to see more
+              <li><NavLink to="/Ship">Click to see more</NavLink></li>
               </p>
             </div>
           </div>

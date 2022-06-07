@@ -9,6 +9,8 @@ import { Contact } from './Contact';
 import { Shipping } from './Shipping';
 import { Calculation } from './Calculation';
 import { Road } from './Road';
+import { Air } from './Air';
+import {Ship} from './Ship';
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
             <Route path = "/Contact" element= {<Contact/>}/>
             <Route path = "/Shipping" element= {<Shipping/>}/>
             <Route path = "/Road" elements={<Road/>}/>
+            <Route path = "/Air" elements={<Air/>}/>
+            <Route path = "/Ship" elements={<Ship/>}/>
+            
       
         </Routes>
       

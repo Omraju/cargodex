@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 import './App.css';
-import './Road.css';
+import './Ship.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-export const Road = () => (
+export const Ship = () => (
     <div>
         <nav>
       <div className="menu">
@@ -31,7 +31,7 @@ export const Road = () => (
                 <li><a href="#">Home</a></li>
                 <li><NavLink to="/About">About</NavLink></li>
                 <li><NavLink to="/Service">services</NavLink></li>
-                <li><a href="#">Contact</a></li>
+                <li><NavLink to="/Contact">Contact</NavLink></li>
             </ul>
         </div>
         <div class="foot-row">
