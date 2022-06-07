@@ -19,72 +19,36 @@ export const Ship = () => (
        </div>
         </nav>
        <div className="img"></div>
-       <div>
-          <section>
-          <div id="ocean"></div>
-       <div id="wholeship">
-          <div id="ship-container">
-              <div class="ship">
-                  </div><div class="smokestack ss1">
-                      <div class="smoke smoke1"></div>
-                       </div>
-                       <div class="smokestack ss2"><div class="smoke smoke2"></div></div>
-                       <div class="smokestack ss3"><div class="smoke smoke3"></div></div>
-                       <div class="smokestack ss4"><div class="smoke smoke4"></div></div>
-                        <div class="deck">
-                             <div class="compartments-lower">
-                                 <div class="door d1"></div>
-                                 <div class="door d2"></div>
-                                 <div class="door d3"></div>
-                                 <div class="door d4"></div>
-                                 <div class="door d5"></div>
-                                 <div class="door d6"></div>
-                                 <div class="door d7"></div>
-                                 <div class="door d8"></div>
-                                 <div class="door d9"></div>
-                                 <div class="door d10"></div>
-                                 <div class="door d11"></div>
-                                 <div class="door d12"></div>
-                                 <div class="door d13"></div>
-                             </div>
-                             <div class="compartments-upper">
-                                 <div class="cph cp1"></div>
-                                 <div class="cph cp2"></div>
-                                 <div class="cph cp3"></div>
-                                 <div class="cph cp4"></div>
-                                 <div class="cph cp5"></div>
-                                 <div class="cph cp6"></div>
-                                 <div class="cph cp7"></div>
-                                 <div class="cph cp8"></div>
-                                 <div class="cph cp9"></div>
-                                 <div class="cph cp10"></div>
-                                 <div class="cph cp11"></div>
-                                 <div class="cph cp12"></div>
-                                 </div>
-                                 <div class="roof"></div>
-                                 </div>
-                                 <div class="hull">
-                                     <div class="hull-top">
-                                         <div class="porthole p1"></div>
-                                         <div class="porthole p2"></div>
-                                         <div class="porthole p3"></div>
-                                         <div class="porthole p4"></div>
-                                         <div class="porthole p5"></div>
-                                         <div class="porthole p6"></div>
-                                         <div class="porthole p7"></div>
-                                         <div class="porthole p8"></div>
-                                         <div class="porthole p9"></div>
-                                         <div class="porthole p10"></div>
-                                         <div class="porthole p11"></div>
-                                         <div class="porthole p12"></div>
-                                         <div class="porthole p13"></div>
-                                         <div class="porthole p14"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-          </section>
-       </div>   
+       <div class="Calci">
+           <form class="calc">
+               <label for="from">From </label>
+               <input type="text" id="from" name="from" placeholder="source" value="" />
+               <label for="to">To </label>
+               <input type="text" id="to" name="to" placeholder="destination" value="" />
+               <label for="product">Mode of shipment</label>
+               <select name="" id="product">
+                   <option value="air">Air transportation</option>
+                   <option value="ocean">Ocean transportation</option>
+                   <option value="road">Road transportation</option>
+                </select>
+                   <label for="product">Types of goods</label>
+                   <select name="" id="product">
+                       <option value="ec">Electronics</option>
+                       <option value="cl">Clothes</option>
+                       <option value="au">Automobiles</option>
+                       <option value="ha">Household appliances</option>
+                       <option value="ig">Industrial goods</option>
+                       <option value="lg">Luxury goods</option>
+                       <option value="gl">Glass materials</option>
+                       <option value="og">Other goods</option>
+                    </select>
+                       <label for="wgt">Approximate weight </label>
+                       <input type="text" id="wgt" name="wgt" placeholder="weight in kgs" value="" />
+                       <div className='button'>
+                           <button type="button" id="calculate" onclick="calculateCost();">Calculate Shipping</button>
+                        </div>
+            </form>
+     </div>  
  
         <footer class="foot-col">
           <div class="foot-main">
