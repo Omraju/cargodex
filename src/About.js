@@ -15,7 +15,7 @@ export const About = () => (
       <li><NavLink to="/About">About</NavLink></li>
       <li><NavLink to="/Service">services</NavLink></li>
       <li><NavLink to="/Shipping">Shipping</NavLink></li>
-      <li><NavLink to="/Contact">Contact</NavLink></li>
+      <li><NavLink to="/Homepage">Logout</NavLink></li>
      </ul>
     </div>
    </nav>
@@ -32,14 +32,14 @@ export const About = () => (
         </div>
         <div class="col-lg-4 col-sm-6">
           <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
-            <h6>Modern Design</h6>
-            <p>We use latest technology for the latest world because we know the demand of peoples.</p>
+            <h6>World wide</h6>
+            <p>Global Services means internet-related services, including but not limited to the streaming media, web site hosting, maintenance, content delivery, and e-commerce services offered by Global to its customers in the ordinary course of its business</p>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6">
           <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
-            <h6>Creative Design</h6>
-            <p>We are always creative and and always lisen our costomers and we mix these two things and make beast design.</p>
+            <h6>Tracking service</h6>
+            <p>To track a package, locate the tracking number sent to you and enter it on the shipping carrier's website. If the shipper uses self-delivery or in-house shipping, they may have a specific tracking solution they will electronically send to you.</p>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6">

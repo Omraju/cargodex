@@ -14,7 +14,7 @@ export const Ship = () => (
        <li><NavLink to="/About">About</NavLink></li>
        <li><NavLink to="/Service">services</NavLink></li>
        <li><NavLink to="/Shipping">Shipping</NavLink></li>
-       <li><NavLink to="/Contact">Contact</NavLink></li>
+       <li><NavLink to="/">Logout</NavLink></li>
        </ul>
        </div>
         </nav>
