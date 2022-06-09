@@ -1,0 +1,27 @@
+/* .hist{
+    background: grey;
+    text-align: center;
+} */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+  
+  .table-03 {
+    width: 1000px;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .table-03 th, .table-03 td {
+    padding: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  .table-03 th {
+    background-color: #005f99;
+  }
+  .table-wrapper{
+    text-align: center;
+  }

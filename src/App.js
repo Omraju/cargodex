@@ -11,6 +11,11 @@ import { Calculation } from './Calculation';
 import { Road } from './Road';
 import { Air } from './Air';
 import { Ship } from './Ship';
+import { NewShipment } from './NewShipment';
+import { History } from './History';
+import { Review } from './Review';
+import { CheckStatus } from './CheckStatus';
+import { StatusCheck } from './StatusCheck';
 
 function App() {
   return (
@@ -26,7 +31,12 @@ function App() {
             <Route path = "/Road" element={<Road/>}/>
             <Route path = "/Air" element={<Air/>}/>
             <Route path = "/Ship" element={<Ship/>}/>
-            
+            <Route path = "/NewShipment" element={<NewShipment/>}/>
+            <Route path = "/History" element={<History/>}/>
+            <Route path = "/Review" element={<Review/>}/>
+            <Route path = "/CheckStatus" element={<CheckStatus/>}/>
+            <Route path = "/StatusCheck" element={<StatusCheck/>}/>
+
       
         </Routes>
       

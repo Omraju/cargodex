@@ -8,11 +8,10 @@ const Calculation = () => {
       <div class="Calci">
         
         <form class="calc">
-        
         <label for="from">From </label>
-        <input type="text" id="from" name="from" placeholder="source" value="" />
+        <input type="text" id="from" placeholder="source" />
         <label for="to">To </label>
-        <input type="text" id="to" name="to" placeholder="destination" value="" />
+        <input type="text" id="to" placeholder="destination" />
 
         <label for="product">Mode of shipment</label>
         <select name="" id="product">
@@ -34,7 +33,7 @@ const Calculation = () => {
         </select>
 
         <label for="wgt">Approximate weight </label>
-        <input type="text" id="wgt" name="wgt" placeholder="weight in kgs" value="" />
+        <input type="text" id="wgt" placeholder="weight in kgs"/>
         <div className='button'>
         <button type="button" id="calculate" onclick="calculateCost();">Calculate Shipping</button>
         </div>

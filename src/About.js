@@ -68,7 +68,8 @@ export const About = () => (
         </div>
       </div>
     </div>
-    <section class="section-prices">
+    </div>
+    {/* <section class="section-prices">
 <h2 class="section-header">Our Pricing</h2>
 <div class="list-boxs">
 	<div class="card starter">
@@ -121,7 +122,7 @@ export const About = () => (
 	</div>
 </div>
 </section>
-  </div>
+  </div> */}
 
         <footer class="foot-col">
           <div class="foot-main">

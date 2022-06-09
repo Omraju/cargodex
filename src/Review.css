@@ -1,0 +1,17 @@
+/* *{
+	background-color:beige ;
+} */
+
+
+
+.review {
+	background: rgba(55, 58, 71, 0.9);
+	width: 1000px;
+	height: 400px;
+	margin-left: 250px;
+	color: #fff;
+}
+
+.rev{
+    text-align: center;
+}

@@ -2,8 +2,9 @@ import { NavLink } from "react-router-dom";
 // import './App.css';
 import './Shipping.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { CheckStatus } from "./CheckStatus";
 export const Shipping = () => (
-  <div>
+    <div>
     <nav>
       <div className="menu">
         <div className="logo">
@@ -11,7 +12,7 @@ export const Shipping = () => (
         </div>
 
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="/Home">Home</a></li>
           <li><NavLink to="/About">About</NavLink></li>
           <li><NavLink to="/Service">services</NavLink></li>
           <li><NavLink to="/Shipping">Shipping</NavLink></li>
@@ -25,39 +26,47 @@ export const Shipping = () => (
       <div className="sub_title">The #1 trusted for  the world’s most recognized Shipping Management</div>
     </div> */}
     <div>
-    <div class="container">
-
-<h1 class="heading">Image Gallery with CSS Grid <span>& Flexbox Fallback</span></h1>
-
-<div class="gallery">
-
-  <div class="gallery-item">
-    <img class="gallery-image" src="https://img.freepik.com/free-photo/top-viwe-transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration_37416-510.jpg?w=1380" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"></img>
-  </div>
-
-  <div class="gallery-item">
-    <img class="gallery-image" src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop" alt="sunset behind San Francisco city skyline"></img>
-  </div>
-
-  <div class="gallery-item">
-    <img class="gallery-image" src="https://img.freepik.com/free-photo/global-transportation-industry_37416-162.jpg?w=1380" alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"></img>
-  </div>
-
-  <div class="gallery-item">
-    <img class="gallery-image" src="https://img.freepik.com/free-photo/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration_37416-487.jpg?w=1380" alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night"></img>
-  </div>
-
-  <div class="gallery-item">
-    <img class="gallery-image" src="https://img.freepik.com/free-photo/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration_37416-505.jpg?w=1380" alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA"></img>
-  </div>
-
-  <div class="gallery-item">
-    <img class="gallery-image" src="https://img.freepik.com/free-photo/transportation-logistics-container-cargo-ship-cargo-plane-3d-rendering-illustration_37416-507.jpg?w=1380"></img>
-  </div>
-
-</div>
-</div>
-</div>
+    <section>
+        <div className="row">
+          <h2 className="section-heading">Shipping</h2>
+        </div>
+        <div className="row">
+          <div className="column">
+            <div className="card">
+              <div className="icon-wrapper">
+                <i className="fas fa-hammer"></i>
+              </div>
+              <h3>Create shipment</h3>
+              <p>
+              <li><NavLink to="/NewShipment">Click here to create new shipment</NavLink></li>
+              </p>
+            </div>
+          </div>
+          <div className="column">
+            <div className="card">
+              <div className="icon-wrapper">
+                <i className="fas fa-brush"></i>
+              </div>
+              <h3>View history</h3>
+              <p>
+              <li><NavLink to="/History">Click here to view history</NavLink></li>
+              </p>
+            </div>
+          </div>
+          <div className="column">
+            <div className="card">
+              <div className="icon-wrapper">
+                <i className="fas fa-wrench"></i>
+              </div>
+              <h3>Check status</h3>
+              <p>
+              <li><NavLink to="/CheckStatus">Click here to view history</NavLink></li>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
 <footer className="foot-col" >
       <div className="foot-main">
         <div className="foot-row">

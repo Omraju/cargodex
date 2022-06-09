@@ -44,7 +44,7 @@ margin-bottom: 60px;
 .section-head h4 {
 position: relative;
 padding:0;
-color:#f91942;
+color:#3866f2;
 line-height: 1;
 letter-spacing:0.3px;
 font-size: 34px;
@@ -57,7 +57,7 @@ margin-bottom:30px;
 content: '';
 width: 60px;
 height: 3px;
-background: #f91942;
+background: #3866f2;
 position: absolute;
 left: 0px;
 bottom: -10px;
@@ -94,7 +94,7 @@ text-transform: none;
 content: '';
 width: 60px;
 height: 3px;
-background: #f91942;
+background: #3866f2;
 position: absolute;
 left: 0px;
 bottom: -10px;
@@ -103,7 +103,7 @@ margin: 0 auto;
 }
 .extra-text span {
 font-weight: 700;
-color:#f91942;
+color:#3866f2;
 }
 .item {
 background: #fff;
@@ -119,7 +119,7 @@ transition: all .5s ease 0;
 transition: all 0.5s ease 0s;
 }
 .item:hover{
-background:#f91942;
+background:#3866f2;
 box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.2);
 -webkit-transition: all .5s ease 0;
 transition: all .5s ease 0;
@@ -141,7 +141,7 @@ transition: all 0.5s ease 0s;
 .item .icon {
 font-size: 40px;
 margin-bottom:25px;
-color: #f91942;   
+color: #3866f2;   
 width: 90px;
 height: 90px;
 line-height: 96px;

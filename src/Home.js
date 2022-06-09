@@ -2,6 +2,7 @@
 
 import { NavLink } from "react-router-dom";
 import Homepage from './Homepage';
+import './Home.css';
 export const Home = () => (
 <div>
      
