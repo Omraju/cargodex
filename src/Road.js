@@ -27,6 +27,8 @@ export const Road= () => (
                <input type="text" id="to" name="to" placeholder="destination" value="" />
                <label for="product">Mode of shipment</label>
                <select name="" id="product">
+               
+                   <option value="Select Option">Select Option</option>
                    <option value="air">Air transportation</option>
                    <option value="ocean">Ocean transportation</option>
                    <option value="road">Road transportation</option>

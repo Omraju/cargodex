@@ -1,9 +1,14 @@
 .status{
     background: rgba(55, 58, 71, 0.9);
     text-align: center;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin: 0 20%;
+    border: 2px solid white;
+
 }
 .stat{
     text-align: center;
-    color: blue;
+    color: rgb(249, 249, 249);
     
 }

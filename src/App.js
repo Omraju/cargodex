@@ -7,7 +7,7 @@ import { Service } from './Service';
 import { About } from './About';
 import { Contact } from './Contact';
 import { Shipping } from './Shipping';
-import { Calculation } from './Calculation';
+// import { Calculation } from './Calculation';
 import { Road } from './Road';
 import { Air } from './Air';
 import { Ship } from './Ship';

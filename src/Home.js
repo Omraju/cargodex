@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 import { NavLink } from "react-router-dom";
@@ -42,5 +42,4 @@ export const Home = () => (
     
 </div>
 );
-=======
->>>>>>> 0a08a1fa44938875cd7cdd1f44d2ff593b7afe41
+
